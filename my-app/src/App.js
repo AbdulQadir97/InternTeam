@@ -1,11 +1,12 @@
 import './App.css';
 import 'antd/dist/antd.css';
-import { DatePicker } from 'antd';
+
+import Login from './component/Login';
 
 function App() {
   return (
     <div className="App">
-      <DatePicker />
+      <Login />
     </div>
   );
 }
